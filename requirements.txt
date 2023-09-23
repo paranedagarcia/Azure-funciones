@@ -1,0 +1,17 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+pyodbc
+pandas
+openpyxl
+google_spreadsheet
+google-auth-oauthlib
+google-api-python-client
+google-auth-httplib2
+gspread
+pydrive
+azure-storage-blob
+python-dateutil
+protobuf==3.20.*
